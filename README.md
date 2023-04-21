@@ -30,3 +30,6 @@ impl warp::reply::Reply for MyCustomResponse {
 ```
 
 As you can see in case of success, the response consists of the serialized struct and sends status code OK. In case of any serialization error, the response consists of the "Internal server error" message and sends status code INTERNAL_SERVER_ERROR. Also the `log` crate is used to log the serialization error.
+
+## License
+[MIT](./LICENSE)
