@@ -6,7 +6,7 @@ extern crate quote;
 use proc_macro::TokenStream;
 use syn::DeriveInput;
 
-#[proc_macro_derive(AsJsonReply)]
+#[proc_macro_derive(JsonReply)]
 pub fn as_reply_derive(input: TokenStream) -> TokenStream {
     // Parse the input tokens into a syntax tree representation
     let input = syn::parse_macro_input!(input as DeriveInput);
