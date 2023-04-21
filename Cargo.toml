@@ -1,0 +1,16 @@
+[package]
+name = "as_reply"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+proc-macro = true
+
+[dependencies]
+log = "0.4"
+quote = "1.0"
+serde = { version="1.0", features = ["derive"] }
+serde_json = "1.0"
+syn = "2.0"
+warp = "0.3"
