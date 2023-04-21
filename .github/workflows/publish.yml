@@ -15,5 +15,4 @@ jobs:
         with:
           command: test
           args: --release --all-features
-        with:
             registry-token: ${{ secrets.CARGO_REGISTRY_TOKEN }}
